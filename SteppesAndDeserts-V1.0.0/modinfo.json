@@ -2,7 +2,7 @@
   "type": "content",
   "Name": "Steppes and Deserts",
   "Version": "1.0.0",
-  "Description": "This mod adds blocks, items and functionalities for desert and steppe biomes.",
+  "Description": "This mod adds blocks, items, entities and functionalities for steppe and desert biomes.",
   "ModID": "steppesanddeserts",
   "Authors": [ "Asgarus", "Pendanyk" ],
   "RequiredOnClient": true,
