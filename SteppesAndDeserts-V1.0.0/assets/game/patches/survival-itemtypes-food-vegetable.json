@@ -1,0 +1,78 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cookedpapyrus*",
+    "value": {},
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturebytype/*-cookedpapyrusroot",
+    "value": {
+      "base": "steppesanddeserts:item/food/vegetable/cookedpapyrusroot"
+    },
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturebytype/*-cookedpapyrussplitroot",
+    "value": {
+      "base": "steppesanddeserts:item/food/vegetable/cookedpapyrussplitroot*"
+    },
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/transitionablePropsByType/*-cookedpapyrusroot",
+    "value": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 48
+        },
+        "transitionHours": {
+          "avg": 18
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "rot"
+        },
+        "transitionRatio": 0.5
+      }
+    ],
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/transitionablePropsByType/*-cookedpapyrussplitroot",
+    "value": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 36
+        },
+        "transitionHours": {
+          "avg": 18
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "rot"
+        },
+        "transitionRatio": 0.5
+      }
+    ],
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/7",
+    "value": "cookedpapyrusroot",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/8",
+    "value": "cookedpapyrussplitroot",
+    "file": "itemtypes/food/vegetable.json"
+  }
+]

@@ -1,0 +1,12 @@
+{
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "item", code: "papyrusstems"}
+	},
+	name: "Processing Papyrusstems",
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "papyrusfiber", quantity: 1 }
+}
